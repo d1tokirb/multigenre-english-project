@@ -1,104 +1,137 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Multigenre Portfolio | Software Development</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Playfair+Display:wght@600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
-    <link rel="stylesheet" href="assets/css/styles.css">
-  </head>
-  <body>
-    <header class="site-header">
-      <a class="brand" href="index.html"><span class="brand-mark">&lt;/&gt;</span> Multigenre Portfolio</a>
-      <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false"><span></span></button>
-      <nav class="site-nav" aria-label="Primary">
-        <a href="pages/newspaper.html">Newspaper</a>
-        <a href="pages/poem.html">Poem</a>
-        <a href="pages/essay.html">Essay</a>
-        <a href="pages/ransom-note.html">Ransom Note</a>
-        <a href="pages/ai-commentary.html">AI Commentary</a>
-        <a href="pages/narrative.html">Narrative</a>
-      </nav>
-    </header>
 
-    <main class="main">
-      <section class="container hero">
-        <div class="hero-text">
-          <h1>Software development, told in six forms.</h1>
-          <p class="byline">By: Jack Hurdley</p>
-          <p class="hero-copy">A pale green, code-inspired writing portfolio about community apps, debugging at night, AI research, testing discipline, and the real places where software gets made.</p>
-          <div class="hero-actions">
-            <a class="button" href="#pieces">Explore the pieces</a>
-            <a class="button secondary" href="#citations">View citations</a>
-          </div>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Multigenre Portfolio | Software Development</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Playfair+Display:wght@600;700&family=Space+Mono:wght@400;700&display=swap"
+    rel="stylesheet">
+  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html"><span class="brand-mark">&lt;/&gt;</span> Multigenre Portfolio</a>
+    <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false"><span></span></button>
+    <nav class="site-nav" aria-label="Primary">
+      <a href="pages/newspaper.html">Newspaper</a>
+      <a href="pages/poem.html">Poem</a>
+      <a href="pages/essay.html">Essay</a>
+      <a href="pages/ransom-note.html">Ransom Note</a>
+      <a href="pages/ai-commentary.html">AI Commentary</a>
+      <a href="pages/narrative.html">Narrative</a>
+    </nav>
+  </header>
+
+  <main class="main">
+    <section class="container hero">
+      <div class="hero-text">
+        <h1>Software development, told in six forms.</h1>
+        <p class="byline">By: Jack Hurdley</p>
+        <p class="hero-copy">A pale green, code-inspired writing portfolio about community apps, debugging at night, AI
+          research, testing discipline, and the real places where software gets made.</p>
+        <div class="hero-actions">
+          <a class="button" href="#pieces">Explore the pieces</a>
+          <a class="button secondary" href="#citations">View citations</a>
         </div>
-        <div class="hero-visual" aria-hidden="true">
-          <div class="terminal-card">
-            <div class="terminal-bar"><span>portfolio.ts</span><span class="dots"><i></i><i></i><i></i></span></div>
-            <pre class="code-lines">const theme = "pale green + white";
+      </div>
+      <div class="hero-visual" aria-hidden="true">
+        <div class="terminal-card">
+          <div class="terminal-bar"><span>portfolio.ts</span><span class="dots"><i></i><i></i><i></i></span></div>
+          <pre class="code-lines">const theme = "pale green + white";
 const topic = "software development";
 
 for (const piece of portfolio) {
   connect(piece.idea, piece.reflection);
   animate("smoothly");
 }</pre>
-          </div>
-          <div class="floating-note">
-            <strong>Code is the medium. People are the reason.</strong>
-            <span>Each page pairs a creative piece with the thinking behind it.</span>
-          </div>
         </div>
-      </section>
-
-      <div class="ticker" aria-hidden="true">
-        <div class="ticker-track">
-          <span>planning</span><span>design</span><span>syntax</span><span>testing</span><span>deployment</span><span>maintenance</span>
-          <span>planning</span><span>design</span><span>syntax</span><span>testing</span><span>deployment</span><span>maintenance</span>
-          <span>planning</span><span>design</span><span>syntax</span><span>testing</span><span>deployment</span><span>maintenance</span>
-        </div>
-        <div class="ticker-track">
-          <span>planning</span><span>design</span><span>syntax</span><span>testing</span><span>deployment</span><span>maintenance</span>
-          <span>planning</span><span>design</span><span>syntax</span><span>testing</span><span>deployment</span><span>maintenance</span>
-          <span>planning</span><span>design</span><span>syntax</span><span>testing</span><span>deployment</span><span>maintenance</span>
+        <div class="floating-note">
+          <strong>Code is the medium. People are the reason.</strong>
+          <span>Each page pairs a creative piece with the thinking behind it.</span>
         </div>
       </div>
+    </section>
 
-      <section class="container section" id="pieces">
-        <div class="section-heading reveal">
-          <h2>Six Pieces</h2>
-          <p>Each piece lives on its own page, with matching reflections and a calm interface inspired by editorial travel sites, translated into a software-development world.</p>
-        </div>
-        <div class="piece-grid">
-          <a class="piece-card reveal" href="pages/newspaper.html"><span class="number">Piece 01</span><h3>Newspaper</h3><p>A school community app becomes a front-page story about building for people.</p></a>
-          <a class="piece-card reveal" href="pages/poem.html"><span class="number">Piece 02</span><h3>Poem</h3><p>A nighttime debugging fight turns into a mystery of syntax and one missing bracket.</p></a>
-          <a class="piece-card reveal" href="pages/essay.html"><span class="number">Piece 03</span><h3>Research Essay</h3><p>A researched look at why full-stack development is becoming less expensive.</p></a>
-          <a class="piece-card reveal" href="pages/ransom-note.html"><span class="number">Piece 04</span><h3>Ransom Note</h3><p>A dramatic visual warning about rushed deadlines, broken code, and missing tests.</p></a>
-          <a class="piece-card reveal" href="pages/ai-commentary.html"><span class="number">Piece 05</span><h3>AI Commentary</h3><p>AI explanations are checked against stronger research sources and real developer complexity.</p></a>
-          <a class="piece-card reveal" href="pages/narrative.html"><span class="number">Piece 06</span><h3>Place Narrative</h3><p>A sensory walk through a development office where ideas become working software.</p></a>
-        </div>
-      </section>
+    <div class="ticker" aria-hidden="true">
+      <div class="ticker-track">
+        <span>planning</span><span>design</span><span>syntax</span><span>testing</span><span>deployment</span><span>maintenance</span>
+        <span>planning</span><span>design</span><span>syntax</span><span>testing</span><span>deployment</span><span>maintenance</span>
+        <span>planning</span><span>design</span><span>syntax</span><span>testing</span><span>deployment</span><span>maintenance</span>
+      </div>
+      <div class="ticker-track">
+        <span>planning</span><span>design</span><span>syntax</span><span>testing</span><span>deployment</span><span>maintenance</span>
+        <span>planning</span><span>design</span><span>syntax</span><span>testing</span><span>deployment</span><span>maintenance</span>
+        <span>planning</span><span>design</span><span>syntax</span><span>testing</span><span>deployment</span><span>maintenance</span>
+      </div>
+    </div>
 
-      <section class="container section" id="citations">
-        <div class="content-panel reveal">
-          <h2>Citations</h2>
-          <ul class="source-list">
-            <li>Amazon Web Services. “What Is Cloud Computing?” Amazon Web Services, https://aws.amazon.com/what-is-cloud-computing/. Accessed 30 Apr. 2026.</li>
-            <li>Business Professionals of America. Business Professionals of America, https://bpa.org/. Accessed 30 Apr. 2026.</li>
-            <li>Gartner. “Low-Code Development Technologies Market Growth.” Gartner, www.gartner.com. Accessed 30 Apr. 2026.</li>
-            <li>GitHub. “Why Open Source Matters.” GitHub, https://github.com/. Accessed 30 Apr. 2026.</li>
-            <li>IBM. “What Is Software Development?” IBM, https://www.ibm.com/think/topics/software-development. Accessed 7 May 2026.</li>
-            <li>McKinsey & Company. “The Economic Potential of Generative AI: The Next Productivity Frontier.” McKinsey & Company, 2023, https://www.mckinsey.com/. Accessed 30 Apr. 2026.</li>
-            <li>Merriam-Webster. “Software.” Merriam-Webster.com Dictionary, Merriam-Webster, https://www.merriam-webster.com/dictionary/software. Accessed 30 Apr. 2026.</li>
-            <li>U.S. Bureau of Labor Statistics. “15-1252 Software Developers.” Occupational Employment and Wage Statistics, U.S. Bureau of Labor Statistics, https://www.bls.gov/oes/2022/may/oes151252.htm. Accessed 7 May 2026.</li>
-          </ul>
-        </div>
-      </section>
-    </main>
+    <section class="container section" id="pieces">
+      <div class="section-heading reveal">
+        <h2>Six Pieces</h2>
+      </div>
+      <div class="piece-grid">
+        <a class="piece-card reveal" href="pages/newspaper.html"><span class="number">Piece 01</span>
+          <h3>Newspaper</h3>
+          <p>A school community app becomes a front-page story about building for people.</p>
+        </a>
+        <a class="piece-card reveal" href="pages/poem.html"><span class="number">Piece 02</span>
+          <h3>Poem</h3>
+          <p>A nighttime debugging fight turns into a mystery of syntax and one missing bracket.</p>
+        </a>
+        <a class="piece-card reveal" href="pages/essay.html"><span class="number">Piece 03</span>
+          <h3>Research Essay</h3>
+          <p>A researched look at why full-stack development is becoming less expensive.</p>
+        </a>
+        <a class="piece-card reveal" href="pages/ransom-note.html"><span class="number">Piece 04</span>
+          <h3>Ransom Note</h3>
+          <p>A dramatic visual warning about rushed deadlines, broken code, and missing tests.</p>
+        </a>
+        <a class="piece-card reveal" href="pages/ai-commentary.html"><span class="number">Piece 05</span>
+          <h3>AI Commentary</h3>
+          <p>AI explanations are checked against stronger research sources and real developer complexity.</p>
+        </a>
+        <a class="piece-card reveal" href="pages/narrative.html"><span class="number">Piece 06</span>
+          <h3>Place Narrative</h3>
+          <p>A sensory walk through a development office where ideas become working software.</p>
+        </a>
+      </div>
+    </section>
 
-    <footer class="site-footer"><div class="footer-inner"><span>Multigenre Portfolio</span><span>Software Development English Project</span></div></footer>
-    <script src="assets/js/site.js"></script>
-  </body>
+    <section class="container section" id="citations">
+      <div class="content-panel reveal">
+        <h2>Citations</h2>
+        <ul class="source-list">
+          <li>Amazon Web Services. “What Is Cloud Computing?” Amazon Web Services,
+            https://aws.amazon.com/what-is-cloud-computing/. Accessed 30 Apr. 2026.</li>
+          <li>Business Professionals of America. Business Professionals of America, https://bpa.org/. Accessed 30 Apr.
+            2026.</li>
+          <li>Gartner. “Low-Code Development Technologies Market Growth.” Gartner, www.gartner.com. Accessed 30 Apr.
+            2026.</li>
+          <li>GitHub. “Why Open Source Matters.” GitHub, https://github.com/. Accessed 30 Apr. 2026.</li>
+          <li>IBM. “What Is Software Development?” IBM, https://www.ibm.com/think/topics/software-development. Accessed
+            7 May 2026.</li>
+          <li>McKinsey & Company. “The Economic Potential of Generative AI: The Next Productivity Frontier.” McKinsey &
+            Company, 2023, https://www.mckinsey.com/. Accessed 30 Apr. 2026.</li>
+          <li>Merriam-Webster. “Software.” Merriam-Webster.com Dictionary, Merriam-Webster,
+            https://www.merriam-webster.com/dictionary/software. Accessed 30 Apr. 2026.</li>
+          <li>U.S. Bureau of Labor Statistics. “15-1252 Software Developers.” Occupational Employment and Wage
+            Statistics, U.S. Bureau of Labor Statistics, https://www.bls.gov/oes/2022/may/oes151252.htm. Accessed 7 May
+            2026.</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner"><span>Multigenre Portfolio</span><span>Software Development English Project</span></div>
+  </footer>
+  <script src="assets/js/site.js"></script>
+</body>
+
 </html>
