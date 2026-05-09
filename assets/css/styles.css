@@ -181,7 +181,7 @@ img {
   position: relative;
   opacity: 1;
   transform: none;
-  overflow: clip;
+  overflow: visible;
 }
 
 .main.leaving {
